@@ -36,11 +36,22 @@ function askedAndAnswered(){
 
 ##Quiz 6
 
-01. Question )
-02. Question )
-03. Question )
-04. Question )
-05. Question )
+01. Question 1) The correct answer was prompt and Math.random because they both return a value. When the user is asked for an input, using one of these methods, the response is then stored. Console.log was not a correct answer because it only prints the value to console.
+02. Question 2) The code below is the correct answer because it uses the values which the prompt specified. The function os defined as 'power' because it will raise the base to the power of the exponent.
+```
+function power(base, exponent) {
+  /* implementation not shown */
+ }
+```
+03. Question 4) The function below is named mystery and is not designed to accept parameters because the () are empty. It is unknown if it can return a value b/c the implementation details are not shown. 
+```
+function mystery () {
+  /* not shown */
+ }
+```
+04. Question 6) One of the statements that would come from the given function was "I need to do chores, homework, and undefined ... So busy!" because the last variable was not given. The function parameters called for three statements, but one example only provided two so the undefined is sort of like a placeholder for the value.
+05. Question 7) Math.random is not correct because it cannot accept parameters, unlike console.log, prompt, and alert. It can only randomly generate a number and print it to the given place.
+06. Question 8) Console.log(subtract(x,y)) is correct, unlike my option of console.log(subtract), because it shows the values which need to be subtracted. In this case, it is x and y and the difference will then be printed to the console.
 
 ##Quiz 7
 
