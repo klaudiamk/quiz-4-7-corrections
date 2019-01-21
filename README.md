@@ -34,7 +34,7 @@ function askedAndAnswered(){
  05. Question 13) The correct for loop that will execute at least once is (let i=0; i>5; i++) because the i will need to reach  6 or greater to satisfiy the expression. The given code will in fact execute more than once.
  06. Question 15) The x--; is correct because it will take one away from x=123 until the x is less than 100. This will run at least once (24 times) and will terminiate.
 
-##Quiz 6
+## Quiz 6
 
 01. Question 1) The correct answer was prompt and Math.random because they both return a value. When the user is asked for an input, using one of these methods, the response is then stored. Console.log was not a correct answer because it only prints the value to console.
 02. Question 2) The code below is the correct answer because it uses the values which the prompt specified. The function os defined as 'power' because it will raise the base to the power of the exponent.
@@ -53,8 +53,14 @@ function mystery () {
 05. Question 7) Math.random is not correct because it cannot accept parameters, unlike console.log, prompt, and alert. It can only randomly generate a number and print it to the given place.
 06. Question 8) Console.log(subtract(x,y)) is correct, unlike my option of console.log(subtract), because it shows the values which need to be subtracted. In this case, it is x and y and the difference will then be printed to the console.
 
-##Quiz 7
+## Quiz 7
 
-01. Question )
-02. Question )
-03. Question )
+01. Question 7) The code written below is correct, in addition to my choice of cars.includes(car), because it uses indexOf and lastIndexOf. The methods look through the array for a value not equal to -1 and return the first/last index where the value is found.
+```
+cars.indexOf(car) !== -1
+cars.lastIndexOf(car)!== -1
+```
+02. Question 14) The array below does not work, and is therefore the correct answer, because the values are all negative and not in the right order. It is incorrect because the largest interger is not returned in order.
+```
+[-9, -1, -8, -2, -7, -3, -6, -4, -5]
+```
