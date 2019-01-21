@@ -1,6 +1,6 @@
-#Quiz 4-7 Corrections
+# Quiz 4-7 Corrections
 
-##Quiz 4
+## Quiz 4
 
 01. Question 6) The second answer was correct (in addition to the one I selected) because it gets the html by the provided id and displays the greeting. The only difference I see from the other correct answer is that it does not store the greeting in the variable "p".
 02. Question 11) 
@@ -25,7 +25,7 @@ function askedAndAnswered(){
  }
  ```
  
- ##Quiz 5
+ ## Quiz 5
  
  01. Question 1) The "x === y ; x !== y" is correct because the first part compares both the value and the type, while the second one compares only the value. It fits the code because the == will diplay true even if the types are not the same.
  02. Question 3) The !== and != are also relational operators because they compare values or variables. The !== means the value and type needs to be correct, while in the != only the value needs to be correct.
